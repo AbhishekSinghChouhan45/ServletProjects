@@ -1,0 +1,13 @@
+127.0.0.1 - - [22/Sep/2023:11:52:06 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:07 +0530] "GET /InstagramReplica/ HTTP/1.1" 200 2353
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:07 +0530] "GET /InstagramReplica/styles.css HTTP/1.1" 200 2381
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:07 +0530] "GET /InstagramReplica/instagram.png HTTP/1.1" 200 41566
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:08 +0530] "GET /InstagramReplica/facebook.png HTTP/1.1" 200 717
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:08 +0530] "GET /InstagramReplica/appstore.png HTTP/1.1" 200 3754
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:52:08 +0530] "GET /InstagramReplica/googleplay.png HTTP/1.1" 200 10071
+127.0.0.1 - - [22/Sep/2023:11:53:03 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:53:04 +0530] "GET /TODOApp/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:53:04 +0530] "GET /TODOApp/js/validation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:53:04 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [22/Sep/2023:15:44:26 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:15:44:27 +0530] "GET /ServletLifeCycle/cycle HTTP/1.1" 200 -

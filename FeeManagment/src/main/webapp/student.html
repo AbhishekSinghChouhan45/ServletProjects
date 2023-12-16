@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Student</title>
+<style> 
+body { 
+background-image: url(accountant2.jpg);
+ background-repeat:no-repeat; 
+ background-size:cover; 
+}  
+</style> 
+</head>
+
+<body>
+		<form action="AddStudent" method="POST">
+			<table style="margin-top: 8%;" align="center">
+				<caption><h2>Add Student Form</h2></caption>
+					<tr>
+						<td>
+						<b>Name:</b>
+						<input type="text" name="name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Email:</b>
+						<input type="text" name="email" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>sex:&nbsp;&nbsp;&nbsp;&nbsp;</b>
+						<input type="radio" name="sex" value="Male">M
+						<input type="radio" name="sex" value="Femal">F
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Course:&nbsp;&nbsp;&nbsp;&nbsp;</b>
+							<select name="course">
+								<option selected>Java</option>
+								<option>Python</option>
+								<option>Ruby</option>
+								<option>Scala</option>
+								<option>C and C++</option>
+								<option>Data Science</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Fee:&nbsp;&nbsp;&nbsp;&nbsp;</b>
+						<input type="text" name="fee"required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Paid:&nbsp;&nbsp;&nbsp;</b>
+						<input type="text" name="paid" required>
+						</td>
+					</tr>
+<!--					<tr>-->
+<!--						<td>-->
+<!--						<b>Due:&nbsp;&nbsp;&nbsp;&nbsp;</b>-->
+<!--						<input type="text" name="due" required>-->
+<!--						</td>-->
+<!--					</tr>-->
+					<tr>
+						<td>
+						<b>AddressLine:</b>
+								<textarea name="addressLine" rows="5" cols="15" required></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Contact:</b>
+						<input type="text" name="contact" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type="submit" value="Add Student" required>
+						</td>
+					</tr>
+			</table>
+		</form>
+<!--		<h1 style="margin-top:13%;background-color:rgb(0, 0, 0);color:white;text-align:right"><small><small><small><small>&copy;Copyright. All rights reserved! by Devloper</small></small></small></small></h1>-->
+</body>
+</html>

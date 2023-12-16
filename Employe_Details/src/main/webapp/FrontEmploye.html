@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hey,What you want</title>
+ <script type = "text/javascript">  
+            function check() {  
+			   var username = prompt("Enter Usernamse","Please Enter Username");
+			   var password = prompt("Enter Password" ,"Please Enter Password");
+			   if(username == "root" && password == "rog"){
+				   window.open('EmployeRegistration.html');
+			   }
+			   else{
+				   var res = alert("You can not Enter");
+			   }  
+			   }
+      </script>       
+</head>
+<body>
+	<form method="POST">
+	<h1 ><a style="color: red; text-align: center;" href="EmployeHome.html">Get Employe Info</a></h1>
+	<br>
+	<h1 style="color: Green; text-align: center;"><input type="submit" value="Enter Employe Database" onclick=check();></h1>
+	</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Voting Checker</title>
+</head>
+<body>
+		<script lang="JavaScript" src="js/voting.js">
+			
+		</script>
+		<form method="GEt" action="vote" onsubmit=" return check(this)">
+			<table align="center" style="background-color: darkcyan;">
+					<tr>
+						<th>
+							Enter Age:
+							<input type="text" name="age"><span style="color: red;" id="age"></span><br>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<input type="hidden" name="hidden" value="disabled">
+							<input type="submit" name="submit" value="Check">
+						</th>
+					</tr>
+			</table>
+		</form>
+</body>
+</html>

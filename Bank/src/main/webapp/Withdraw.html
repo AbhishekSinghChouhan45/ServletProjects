@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Withdraw</title>
+</head>
+<body>
+	<script lang="JavaScipt" src="js/Validation.js">
+		
+	</script>
+		<form method="GET" action="sbi" onsubmit="return withdraw(this)" >
+			<table align="center" style="background-color: cyan;">
+				<tr>
+					<th>
+						Enter username:
+						<input type="text" name="username"><span style="color: red;" id="username"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Password:
+						<input type="text" name="password"><span style="color: red;" id="password"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Amount:
+						<input type="text" name="amount"><span style="color: red;" id="amount"></span><br>
+					</th>
+				</tr>
+				<tr>
+				    <th>
+						<input type="hidden" value="withdraw" name="hiddenButton">
+						<input type="hidden" value="disabled" name="vstatus">
+						<input type="submit" name="Submit" value="Withdraw">
+					</th>
+				</tr>
+			</table>
+		</form>
+</body>
+</html>

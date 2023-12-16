@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SecondServlet.java&apos; to &apos;DynamicWebPageUsingHiddenFormFields/src/main/java/com.nt.hiddenformfields&apos;&#x0D;&#x0A;- Original project: &apos;DynamicWebPageUsingStatelessBehaviour&apos;&#x0D;&#x0A;- Destination element: &apos;DynamicWebPageUsingHiddenFormFields/src/main/java/com.nt.hiddenformfields&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.stateless.SecondServlet.java&apos;" description="Copy compilation unit" destination="=DynamicWebPageUsingHiddenFormFields/src\/main\/java&lt;com.nt.hiddenformfields" element1="/src\/main\/java&lt;com.nt.stateless{SecondServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1694320311744" units="1" version="1.0"/>
+</session>

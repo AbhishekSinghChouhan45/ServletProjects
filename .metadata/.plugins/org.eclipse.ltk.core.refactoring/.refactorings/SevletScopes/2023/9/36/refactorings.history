@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.scope.request&apos; to &apos;com.nt.scopes&apos;&#x0D;&#x0A;- Original project: &apos;SevletScopes&apos;&#x0D;&#x0A;- Original element: &apos;SevletScopes/src/main/java/com.scope.request&apos;&#x0D;&#x0A;- Renamed element: &apos;SevletScopes/src/main/java/com.nt.scopes&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.scope.request&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.scope.request" name="com.nt.scopes" qualified="false" references="true" stamp="1693719695763" textual="false" version="1.0"/>
+</session>

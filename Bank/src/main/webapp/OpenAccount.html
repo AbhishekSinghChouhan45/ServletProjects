@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>OpenAccount</title>
+</head>
+<body>
+	<script lang="JavaScript" src="js/Validation.js">
+		
+	</script>
+	
+		<form method="POST" action="sbi" onclick="return opcheck(this)">
+			<table align="center" style="background-color: cyan;">
+				<tr>
+					<th>
+						Enter Name:
+						<input type="text" name="name"><span style="color: red;" id="name"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Address:
+						<input type="text" name="address"><span style="color: red;" id="address"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Number:
+						<input type="text" name="number"><span style="color: red;" id="number"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Gender:
+						<input type="radio" name="gender" value="m">Male<span style="color: red;" id="gender"></span>
+						<input type="radio" name="gender" value="f" checked>Female<span style="color: red;" id="gender"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Date of Birth:
+						<input type="date" name="dob"><span style="color: red;" id="dob"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Balance:
+						<input type="text" name="balance"><span style="color: red;" id="balance"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Username:
+						<input type="text" name="username"><span style="color: red;" id="username"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Password
+						<input type="password" name="password"><span style="color: red;" id="password"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<input type="hidden" value="open" name="hiddenButton">
+						<input type="hidden" value="disabled" name="vstatus">
+						<input type="submit" name="Submit" value="Open Account">
+					</th>	
+				</tr>
+			</table>
+		</form>
+</body>
+</html>

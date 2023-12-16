@@ -1,0 +1,14 @@
+<web-app>
+<display-name>Top_City_Of_Country</display-name>
+  <welcome-file-list>
+    <welcome-file>CountrySite.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  		<servlet-name>Country</servlet-name>
+  		<servlet-class>com.country.city.CheckCity</servlet-class>
+  </servlet>
+<servlet-mapping>
+  		<servlet-name>Country</servlet-name>
+		<url-pattern>/country</url-pattern>
+</servlet-mapping>
+</web-app>

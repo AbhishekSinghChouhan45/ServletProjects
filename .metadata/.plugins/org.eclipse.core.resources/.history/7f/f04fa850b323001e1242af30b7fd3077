@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employe Data</title>
+	<style>
+ body {
+        background-image: url('Downloads/business-people-blue-background.jpg');
+        background-repeat: repeat-y;
+      }
+</style>
+</head>
+<body>
+		<form method="get" action="employe">
+			Enter Employe id:<input type="text" name="eid"><br>
+			<input type="submit" value="Submit">
+		</form>
+		
+		<table style="border: 10;"></table>
+		
+		
+</body>
+</html>

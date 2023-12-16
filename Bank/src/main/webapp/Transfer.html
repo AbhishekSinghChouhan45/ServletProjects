@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transfer</title>
+</head>
+<body>
+		<script lang="JavaScript" src="js/Validation.js">
+			
+		</script>
+		<form method="POST" action="sbi" onsubmit="return transfer(this)">
+			<table align="center" style="background-color: cyan;">
+				<tr>
+					<th>
+						Enter Username:
+						<input type="text" name="username"><span style="color:  red;" id="username"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Destination Username:
+						<input type="text" name="dusername"><span style="color:  red;" id="dusername"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Password:
+						<input type="text" name="password"><span style="color:  red;" id="password"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Enter Amount:
+						<input type="text" name="amount"><span style="color:  red;" id="amount"></span><br>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<input type="hidden" name="hiddenButton" value="transfer">
+						<input type="hidden" name="vstatus" value="disabled">
+						<input type="submit" name="submit" value="Transfer">
+					</th>
+				</tr>
+				
+				
+			</table>
+		</form>
+</body>
+</html>

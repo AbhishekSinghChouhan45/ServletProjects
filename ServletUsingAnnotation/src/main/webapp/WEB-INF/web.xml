@@ -1,0 +1,6 @@
+<web-app>
+  <display-name>ServletUsingAnnotation</display-name>
+  <welcome-file-list>
+    <welcome-file>Voting.html</welcome-file>
+  </welcome-file-list>
+</web-app>

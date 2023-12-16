@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Voting Checker</title>
+</head>
+<body>
+	<script lang="JavaScript" src="js/Validation.js">
+		
+	</script>
+	<form method="POST" action="vote" onclick="return check(this)">
+		 <table align="center" style="background-color: cyan;"> 
+			 <caption>Check Voting Eligibility</caption>
+			 <tr>
+				 <td>
+					 Enter Name: 
+					 <input type="text" name="vname"><span style="color: red;" id="vnameerr"></span><br>
+				 </td>
+			 </tr>
+			 <tr>
+				 <td>
+					 Enter Age: 
+					 <input type="text" name="vage"><span style="color: red;" id="vageerr"></span><br>
+				 </td>
+			 </tr>
+			 <tr>
+				 <td>
+					 Enter Gender:
+					 <input type="text" name="vgender"><span style="color: red;" id="vgendererr"></span><br>
+				 </td>
+			 </tr>
+			 <tr>
+				 <td>
+					 <input type="hidden" name="vhidden" value="Disable">
+					 <input type="submit" name="submit">
+				 </td>
+			 </tr>
+			
+			 
+		 </table>
+	</form>
+</body>
+</html>

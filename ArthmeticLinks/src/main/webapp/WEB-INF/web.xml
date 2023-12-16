@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>ArthmeticLinks</display-name>
+  <servlet>
+  	<servlet-name>Arthmetic</servlet-name>
+  	<servlet-class>com.code.arthmetic.Arthmetics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Arthmetic</servlet-name>
+	<url-pattern>/arthmetic</url-pattern>  
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Arthmethic.html</welcome-file>
+  </welcome-file-list>
+</web-app>

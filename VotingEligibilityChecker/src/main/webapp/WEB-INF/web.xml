@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>VotingEligibilityChecker</display-name>
+	<servlet>
+		<servlet-name>voting</servlet-name>
+		<servlet-class>com.vote.checker.VoterEligibility</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>voting</servlet-name>
+		<url-pattern>/vote</url-pattern>	
+	</servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Voting.html</welcome-file>
+  </welcome-file-list>
+</web-app>

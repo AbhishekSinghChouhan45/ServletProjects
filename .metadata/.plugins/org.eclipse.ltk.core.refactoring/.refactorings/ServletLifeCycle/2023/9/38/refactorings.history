@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.lifecycle.LifeCyle&apos; to &apos;RequestListener&apos;&#x0D;&#x0A;- Original project: &apos;ServletLifeCycle&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.lifecycle.LifeCyle&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.lifecycle.RequestListener&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LifeCyle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.nt.lifecycle{LifeCyle.java[LifeCyle" matchStrategy="1" name="RequestListener" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1695440596744" textual="false" version="1.0"/>
+</session>

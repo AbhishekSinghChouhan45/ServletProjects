@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ServletCommunication_Using_include_prototypeScope&apos; to &apos;ServletCommunication_Using_Include()&apos;" description="Rename resource &apos;ServletCommunication_Using_include_prototypeScope&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ServletCommunication_Using_include_prototypeScope" name="ServletCommunication_Using_Include()" stamp="1693205812704" updateReferences="true"/>
+</session>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Todo</title>
+</head>
+<body background="list.jpg" >
+	<form action="todoadded" method="POST">
+		<h2>
+		<table align="center" style="margin-top: 14%;">
+			<tr><th align="left">Title</th></tr>
+			<tr><td><input type="text" name="title" placeholder="Title" required></td></tr>
+			<tr><th align="left">Description</th></tr>
+			<tr><td><input type="text" name="description" placeholder="Description" required></td></tr>
+			<tr><th align="left">Status</th></tr>
+			<tr><td><select name="status" id="st" required>
+					<option value="done">Done</option>
+					<option value="ndone">Not Done</option>
+			</select></td></tr>
+			<tr><th align="left">Target Date</th></tr>
+			<tr><td><input type="date" name="tdate" placeholder="Target Date" required></td></tr>
+			<tr><td><input type="submit" name="add" value="Add"></td></tr>
+			
+		</table>
+		</h4>
+	</form>
+</body>
+</html>

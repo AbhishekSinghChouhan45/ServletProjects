@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<style> 
+body { 
+background-image: url(admin.jpg);
+ background-repeat:no-repeat; 
+ background-size:cover; 
+}  
+</style> 
+</head>
+
+<body>
+<!--	<h1 style="background-color:black;color:rgb(192, 192, 192);">Fee Report  &nbsp;&nbsp; <small><small><a style="color: grey;" href="index.html">home</small></small></a></h1>-->
+			<form method="POST" action="Add">
+				<table align="center" style="margin-top: 2%; background-color: black;">
+					<caption><h2 style="color: white;">Add Accountant Form</h2></caption>
+						<tr>
+							<td>
+								<b style="color: white;">Name:</b>
+								<input type="text" name="acname" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b style="color: white;">Password:</b>
+								<input type="password" name="acpass" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b style="color: white;">Email:</b>
+								<input type="email" name="email" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b style="color: white;">Address:</b>
+								<textarea name="acaddress" rows="15" cols="15" required></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b style="color: white;">Contact:</b>
+								<input type="text" name="accontact" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="submit" name="Add Accountant">
+							</td>
+						</tr>
+				</table>
+			</form>
+<!--			<p style="margin-top:12%;background-color:rgb(0, 0, 0);color:white;text-align:center">&copy;Copyright. All rights reserved! by Devloper</p>-->
+</body>
+</html>

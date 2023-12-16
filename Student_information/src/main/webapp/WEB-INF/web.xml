@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>Student_information</display-name>
+  <welcome-file-list>
+    <welcome-file>Student.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>student</servlet-name>
+  	<servlet-class>com.code.student.Student_info</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>student</servlet-name>
+	<url-pattern>/student</url-pattern>  	
+  </servlet-mapping>
+</web-app>

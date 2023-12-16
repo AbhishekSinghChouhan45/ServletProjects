@@ -1,0 +1,20 @@
+1696422270986	Rename resource 'index.html'
+1696422281381	Rename resource 'Login.html'
+1696422372744	Copy package
+1696422381449	Delete element
+1696422388870	Delete element
+1696424240558	Rename package 'com.nt.admin'
+1696425237756	Rename type 'Login'
+1696479228056	Rename type 'LoginServlet'
+1696481683974	Move compilation unit
+1696481962268	Move compilation unit
+1696481987156	Rename type 'LoginDAO'
+1696483227770	Rename type 'ViewAccountantDAO'
+1696490427434	Move 'js' to 'webapp'
+1696492078835	Delete element
+1696493926076	Copy compilation unit
+1696493932145	Delete element
+1696505448030	Delete element
+1696505485181	Move 'SEVP.jpg' to 'webapp'
+1696507530051	Move 'search.jfif' to 'webapp'
+1696507546722	Rename resource 'search.jfif'

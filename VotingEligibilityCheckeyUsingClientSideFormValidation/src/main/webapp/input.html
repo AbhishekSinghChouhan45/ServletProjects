@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Client Side Form Validation</title>
+</head>
+<body>	
+	<script lang="JavaScript" src="js/Validation.js">
+		
+	</script>
+	<form method="GET" action="check" onclick=" return check(this)">
+			<table align="center" style="background-color: cyan; text-align: center;">
+				<tr>
+					<td>Enter Name: 
+						<input type="text" name="name"><span style="color: red;" id="pnameerr"></span><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Enter Age:
+						<input type="text" name="age"><span style="color: red;" id="pageerr"></span><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Enter Gender:
+						<input type="text" name="gender" ><span style="color: red;" id="pgendererr"></span><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" name="submit">
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Todo App</title>
+</head>
+	<script lang="JavaScript" src="js/validation.js">
+	</script>
+
+<body background="Registration.jpg">
+		<form method="POST" action="register" onsubmit="return check(this)">
+			<table align="center"  style="margin-top: 14%; border-radius: 4%;">
+				<caption style="color: white;" >Sign up</caption>
+				<tr>
+					<tr><th align="left" style="color: white;">First Name</th></tr>
+					<td><input type="text" name="fname" placeholder="First Name" required></td>
+				</tr>
+				<tr>
+					<tr><th align="left" style="color: white;">Last Name</th></tr>
+					<td><input type="text" name="lname" placeholder="Last Name" required></td>
+				</tr>
+				<tr>
+					<tr><th align="left" style="color: white;">Username</th></tr>
+					<td><input type="text" name="uname" placeholder="Username" required></td>
+				</tr>
+				<tr>
+					<tr><th align="left" style="color: white;">Password</th></tr>
+					<td><input type="password" name="upass" placeholder="password" required></td>
+				</tr>
+				<tr>
+					<tr><th align="left" style="color: white;">retype-Password</th></tr>
+					<td><input type="password" name="rpass" placeholder="retype password" required><span id="pass" style="color: red;"></span></td>
+				</tr>
+				<tr>
+					<tr><th align="left" style="color: white;">Date of Birth</th></tr>
+					<td><input type="date" name="dob" placeholder="Date of Birth" required></td>
+				</tr>
+				<tr align="center">
+					<td><input type="submit" value="Register" style="background-color: green; color: white;"></td>
+				</tr>
+			</table>
+		</form>
+</body>
+</html>

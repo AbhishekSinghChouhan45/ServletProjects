@@ -1,0 +1,13 @@
+<web-app>
+  <servlet>
+   		<servlet-name>Season</servlet-name>
+   		<servlet-class>com.check.season.CheckSeason</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   		<servlet-name>Season</servlet-name>
+		<url-pattern>/season</url-pattern>  
+  </servlet-mapping>
+	<welcome-file-list>
+    <welcome-file>Season.html</welcome-file>
+  </welcome-file-list>
+</web-app>

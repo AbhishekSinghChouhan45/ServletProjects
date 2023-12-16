@@ -1,0 +1,26 @@
+<web-app>
+  
+  <display-name>Employe_Details</display-name>
+  <welcome-file-list>
+  	<welcome-file>FrontEmploye.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  		<servlet-name>Employe</servlet-name>
+  		<servlet-class>com.data.employe.EmployeData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>Employe</servlet-name>
+		<url-pattern>/employe</url-pattern>  		
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>EnterEmploye</servlet-name>
+  		<servlet-class>com.data.employe.EnterEmployeData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>EnterEmploye</servlet-name>
+		<url-pattern>/enteringdata</url-pattern>  		
+  </servlet-mapping>
+  
+</web-app>
